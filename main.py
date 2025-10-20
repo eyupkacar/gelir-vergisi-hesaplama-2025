@@ -1,6 +1,7 @@
 import streamlit as st
-bordro=st.checkbox("bordro")
-gelir=st.number_input("brüt yıllık gelirinizi giriniz")
+st.tittle("Eyüp Kaçar")
+bordro=st.checkbox("Bordro")
+gelir=st.number_input("Brüt Yıllık Gelirinizi Giriniz")
 
 v158=158000*0.15
 v330=(330000-158000)*0.20
@@ -9,7 +10,7 @@ v4300=(4300000-1200000)*0.35
 v800=(800000-330000)*0.27
 v4300x=(4300000-800000)*0.35
 
-if bordro:
+if Bordro:
   if gelir<158000:
     vergi=gelir*0.15
   elif gelir<330000:
@@ -41,4 +42,5 @@ st.write("yıllık gelir",gelir,
          "yıllık net gelir",net,
          "aylık brüt gelir",ay,
          "aylık net gelir",aynet,
+
          "toplam vergi",vergi)
