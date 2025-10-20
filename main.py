@@ -40,7 +40,7 @@ net=gelir-vergi
 ay=gelir/12
 aynet=net/12
 
-st.write("yıllık gelir",
+st.writeline("yıllık gelir",
          gelir,
          "yıllık net gelir",
          net,
@@ -50,6 +50,7 @@ st.write("yıllık gelir",
          aynet,
          "toplam vergi",
          vergi)
+
 
 
 
