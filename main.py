@@ -1,7 +1,5 @@
 import streamlit as st
 
-st.tittle("Eyüp Kacar")
-
 bordro=st.checkbox("Bordro")
 gelir=st.number_input("Brüt Yıllık Gelirinizi Giriniz")
 
@@ -46,4 +44,5 @@ st.write("yıllık gelir",gelir,
          "aylık net gelir",aynet,
 
          "toplam vergi",vergi)
+
 
