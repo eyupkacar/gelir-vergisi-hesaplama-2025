@@ -10,7 +10,7 @@ v4300=(4300000-1200000)*0.35
 v800=(800000-330000)*0.27
 v4300x=(4300000-800000)*0.35
 
-if Bordro:
+if bordro:
   if gelir<158000:
     vergi=gelir*0.15
   elif gelir<330000:
@@ -44,5 +44,6 @@ st.write("yıllık gelir",gelir,
          "aylık net gelir",aynet,
 
          "toplam vergi",vergi)
+
 
 
